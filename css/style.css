@@ -95,3 +95,7 @@ footer.page-footer {
 .mytitle {
     letter-spacing: 2px;
 }
+
+div {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}

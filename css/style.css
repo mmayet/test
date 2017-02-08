@@ -33,7 +33,7 @@ p {
 }
 
 .parallax img {
-  display: inline!important;
+    display: inline!important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -65,14 +65,13 @@ footer.page-footer {
 }
 
 .header {
-  text-shadow: 3px 3px lightgoldenrodyellow;
-
-  background-color: rgba(242,242,242,.5);
-  box-shadow: 0 0 3px 10px rgba(242, 242, 242, .3); 
+    text-shadow: 3px 3px lightgoldenrodyellow;
+    background-color: rgba(242, 242, 242, .5);
+    box-shadow: 0 0 3px 10px rgba(242, 242, 242, .3);
 }
 
 .links a {
-  text-decoration: none!important;
+    text-decoration: none!important;
 }
 
 .standout {
@@ -100,7 +99,7 @@ div {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-strong { 
+strong {
     font-weight: bold;
 }
 
@@ -110,4 +109,14 @@ h6 {
 
 .left-poem {
     text-align: left;
+}
+
+@font-face {
+    font-family: 'quran';
+    src: url("../fonts/quran.ttf") format("truetype");
+}
+
+.quran {
+    font-family: 'quran';
+    line-height: 200%;
 }
